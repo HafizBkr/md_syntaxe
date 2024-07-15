@@ -215,3 +215,107 @@ Utilisez une barre oblique inverse (\) pour échapper des caractères spéciaux.
 ---
 
 Ceci conclut notre guide sur les commandes et syntaxes Markdown les plus courantes. Utilisez-les pour formater vos documents de manière claire et efficace.
+
+
+### Tâches (Listes de Tâches)
+
+Les listes de tâches sont créées en utilisant des crochets et des espaces. Cochez les tâches avec un `x`.
+
+\`\`\`markdown
+- [ ] Tâche à faire
+- [x] Tâche accomplie
+\`\`\`
+
+### Aperçu
+
+- [ ] Tâche à faire
+- [x] Tâche accomplie
+
+### Texte en Exposant
+
+Pour le texte en exposant, utilisez le symbole `^` avant et après le texte.
+
+\`\`\`markdown
+E = mc^2^
+\`\`\`
+
+### Aperçu
+
+E = mc^2^
+
+### Commentaires HTML
+
+Vous pouvez insérer des commentaires HTML dans votre document Markdown. Ces commentaires ne seront pas affichés dans la version rendue.
+
+\`\`\`markdown
+<!-- Ceci est un commentaire HTML -->
+\`\`\`
+
+### Aperçu
+
+<!-- Ceci est un commentaire HTML -->
+
+### Texte en Code Inline
+
+Pour insérer du texte en code inline, utilisez des accents graves (\`).
+
+\`\`\`markdown
+Voici un exemple de \`code inline\`.
+\`\`\`
+
+### Aperçu
+
+Voici un exemple de \`code inline\`.
+
+### Blocs de Code Indentés
+
+Vous pouvez également créer des blocs de code en indentant chaque ligne avec quatre espaces.
+
+    Voici un bloc de code indenté.
+    Chaque ligne commence avec quatre espaces.
+
+### Aperçu
+
+    Voici un bloc de code indenté.
+    Chaque ligne commence avec quatre espaces.
+
+### Sauts de Ligne
+
+Pour insérer un saut de ligne sans commencer un nouveau paragraphe, ajoutez deux espaces à la fin de la ligne.
+
+\`\`\`markdown
+Ligne 1 avec deux espaces à la fin.  
+Ligne 2 sur une nouvelle ligne.
+\`\`\`
+
+### Aperçu
+
+Ligne 1 avec deux espaces à la fin.  
+Ligne 2 sur une nouvelle ligne.
+
+### Encadrés
+
+Pour créer des encadrés colorés sur certaines plateformes Markdown (comme GitHub), utilisez des points d'exclamation ou des astérisques avec des mots-clés spécifiques.
+
+\`\`\`markdown
+> :warning: **Avertissement:** Ceci est un encadré d'avertissement.
+> :information_source: **Information:** Ceci est un encadré d'information.
+\`\`\`
+
+### Aperçu
+
+> :warning: **Avertissement:** Ceci est un encadré d'avertissement.
+> :information_source: **Information:** Ceci est un encadré d'information.
+
+### Emphase combinée
+
+Vous pouvez combiner gras et italique pour mettre encore plus en valeur du texte.
+
+\`\`\`markdown
+***Texte en italique et gras***
+\`\`\`
+
+### Aperçu
+
+***Texte en italique et gras***
+
