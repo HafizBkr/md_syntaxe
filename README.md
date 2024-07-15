@@ -135,16 +135,16 @@ Utilisez des accents graves triples (\`\`\`) avant et après le bloc de code. Vo
 
 ### Aperçu
 
-\`\`\`go
-// Exemple de code en Go
-package main
-
-import "fmt"
-
-func main() {
-    fmt.Println("Hello, World!")
-}
-\`\`\`
+      \`\`\`go
+      // Exemple de code en Go
+      package main
+      
+      import "fmt"
+      
+      func main() {
+          fmt.Println("Hello, World!")
+      }
+      \`\`\`
 
 ## Blocs de Citation
 
