@@ -319,3 +319,115 @@ Vous pouvez combiner gras et italique pour mettre encore plus en valeur du texte
 
 ***Texte en italique et gras***
 
+### Mentions
+
+Certaines plateformes Markdown supportent les mentions, comme GitHub. Utilisez `@` suivi du nom d'utilisateur.
+
+\`\`\`markdown
+@utilisateur
+\`\`\`
+
+### Aperçu
+
+@utilisateur
+
+### Ancres de Liens
+
+Vous pouvez créer des ancres pour naviguer dans le document.
+
+\`\`\`markdown
+## Section 1
+[Aller à la Section 2](#section-2)
+
+## Section 2
+[Aller à la Section 1](#section-1)
+\`\`\`
+
+### Aperçu
+
+## Section 1
+[Aller à la Section 2](#section-2)
+
+## Section 2
+[Aller à la Section 1](#section-1)
+
+### Tableaux Avancés
+
+Vous pouvez aligner le texte dans les colonnes de vos tableaux en utilisant des deux-points (\`:\`).
+
+\`\`\`markdown
+| Alignement Gauche | Centré         | Alignement Droit|
+|:------------------|:--------------:|----------------:|
+| Texte à gauche    | Texte centré   | Texte à droite  |
+\`\`\`
+
+### Aperçu
+
+| Alignement Gauche | Centré         | Alignement Droit|
+|:------------------|:--------------:|----------------:|
+| Texte à gauche    | Texte centré   | Texte à droite  |
+
+### Boutons
+
+Certaines plateformes Markdown (comme GitHub) supportent les boutons via des balises HTML.
+
+\`\`\`markdown
+<a href="http://exemple.com" class="btn">Bouton</a>
+\`\`\`
+
+### Aperçu
+
+<a href="http://exemple.com" class="btn">Bouton</a>
+
+### Footnotes (Notes de bas de page)
+
+Vous pouvez ajouter des notes de bas de page pour fournir des informations supplémentaires.
+
+\`\`\`markdown
+Ceci est un exemple avec une note de bas de page [^1].
+
+[^1]: Ceci est la note de bas de page.
+\`\`\`
+
+### Aperçu
+
+Ceci est un exemple avec une note de bas de page [^1].
+
+[^1]: Ceci est la note de bas de page.
+
+### Graphiques Mermaid
+
+Certaines plateformes supportent les graphiques Mermaid pour créer des diagrammes.
+
+\`\`\`markdown
+\`\`\`mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+\`\`\`
+\`\`\`
+
+### Aperçu
+
+\`\`\`mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+\`\`\`
+
+### Mathématiques avec LaTeX
+
+Vous pouvez inclure des expressions mathématiques en utilisant LaTeX dans certaines plateformes Markdown.
+
+\`\`\`markdown
+$$E = mc^2$$
+\`\`\`
+
+### Aperçu
+
+$$E = mc^2$$
+
